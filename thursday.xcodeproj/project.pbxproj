@@ -108,7 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				FFD05E9425B0E97A005EED40 /* View Controllers */,
-				FFD05E8725B0D40C005EED40 /* Models */,
+				FFD05E8725B0D40C005EED40 /* Model */,
 				FFD05E8B25B0D411005EED40 /* Model Controllers */,
 				FFD05E9A25B0EA3C005EED40 /* Views */,
 				FFD05E7725B0CDF4005EED40 /* Resources */,
@@ -154,12 +154,12 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		FFD05E8725B0D40C005EED40 /* Models */ = {
+		FFD05E8725B0D40C005EED40 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				FFD05E8225B0D381005EED40 /* Landmark.swift */,
 			);
-			path = Models;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		FFD05E8B25B0D411005EED40 /* Model Controllers */ = {
