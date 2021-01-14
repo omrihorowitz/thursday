@@ -18,3 +18,11 @@ class Landmark {
         self.country = country
     }
 }
+
+extension Landmark: Equatable {
+    static func == (lhs: Landmark, rhs: Landmark) -> Bool {
+        lhs.name == rhs.name && lhs.photo == rhs.photo && lhs.country == rhs.country
+    }
+    
+    
+}
