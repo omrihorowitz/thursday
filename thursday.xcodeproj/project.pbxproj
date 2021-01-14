@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		FFD05E4525B0CDE1005EED40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD05E4425B0CDE1005EED40 /* AppDelegate.swift */; };
 		FFD05E4725B0CDE1005EED40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD05E4625B0CDE1005EED40 /* SceneDelegate.swift */; };
-		FFD05E4925B0CDE1005EED40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD05E4825B0CDE1005EED40 /* ViewController.swift */; };
 		FFD05E4C25B0CDE1005EED40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD05E4A25B0CDE1005EED40 /* Main.storyboard */; };
 		FFD05E4E25B0CDE4005EED40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD05E4D25B0CDE4005EED40 /* Assets.xcassets */; };
 		FFD05E5125B0CDE4005EED40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD05E4F25B0CDE4005EED40 /* LaunchScreen.storyboard */; };
 		FFD05E5C25B0CDE4005EED40 /* thursdayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD05E5B25B0CDE4005EED40 /* thursdayTests.swift */; };
 		FFD05E6725B0CDE4005EED40 /* thursdayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD05E6625B0CDE4005EED40 /* thursdayUITests.swift */; };
+		FFD05E8325B0D381005EED40 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD05E8225B0D381005EED40 /* Landmark.swift */; };
+		FFD05E8D25B0D41C005EED40 /* LandmarkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD05E8C25B0D41C005EED40 /* LandmarkController.swift */; };
+		FFD05E9625B0E992005EED40 /* LandmarkCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD05E9525B0E992005EED40 /* LandmarkCollectionViewController.swift */; };
+		FFD05E9D25B0EA53005EED40 /* LandmarkCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD05E9C25B0EA53005EED40 /* LandmarkCollectionViewCell.swift */; };
+		FFD05EA825B0F872005EED40 /* CountryChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD05EA725B0F872005EED40 /* CountryChoiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 		FFD05E4125B0CDE1005EED40 /* thursday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thursday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD05E4425B0CDE1005EED40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFD05E4625B0CDE1005EED40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FFD05E4825B0CDE1005EED40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FFD05E4B25B0CDE1005EED40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFD05E4D25B0CDE4005EED40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFD05E5025B0CDE4005EED40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		FFD05E6225B0CDE4005EED40 /* thursdayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thursdayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD05E6625B0CDE4005EED40 /* thursdayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thursdayUITests.swift; sourceTree = "<group>"; };
 		FFD05E6825B0CDE4005EED40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD05E8225B0D381005EED40 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		FFD05E8C25B0D41C005EED40 /* LandmarkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkController.swift; sourceTree = "<group>"; };
+		FFD05E9525B0E992005EED40 /* LandmarkCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCollectionViewController.swift; sourceTree = "<group>"; };
+		FFD05E9C25B0EA53005EED40 /* LandmarkCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCollectionViewCell.swift; sourceTree = "<group>"; };
+		FFD05EA725B0F872005EED40 /* CountryChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryChoiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,11 @@
 		FFD05E4325B0CDE1005EED40 /* thursday */ = {
 			isa = PBXGroup;
 			children = (
-				FFD05E4425B0CDE1005EED40 /* AppDelegate.swift */,
-				FFD05E4625B0CDE1005EED40 /* SceneDelegate.swift */,
-				FFD05E4825B0CDE1005EED40 /* ViewController.swift */,
-				FFD05E4A25B0CDE1005EED40 /* Main.storyboard */,
-				FFD05E4D25B0CDE4005EED40 /* Assets.xcassets */,
-				FFD05E4F25B0CDE4005EED40 /* LaunchScreen.storyboard */,
-				FFD05E5225B0CDE4005EED40 /* Info.plist */,
+				FFD05E9425B0E97A005EED40 /* View Controllers */,
+				FFD05E8725B0D40C005EED40 /* Models */,
+				FFD05E8B25B0D411005EED40 /* Model Controllers */,
+				FFD05E9A25B0EA3C005EED40 /* Views */,
+				FFD05E7725B0CDF4005EED40 /* Resources */,
 			);
 			path = thursday;
 			sourceTree = "<group>";
@@ -126,6 +132,68 @@
 				FFD05E6825B0CDE4005EED40 /* Info.plist */,
 			);
 			path = thursdayUITests;
+			sourceTree = "<group>";
+		};
+		FFD05E7725B0CDF4005EED40 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FFD05E4425B0CDE1005EED40 /* AppDelegate.swift */,
+				FFD05E4625B0CDE1005EED40 /* SceneDelegate.swift */,
+				FFD05E4D25B0CDE4005EED40 /* Assets.xcassets */,
+				FFD05E5225B0CDE4005EED40 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FFD05E7E25B0CE14005EED40 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FFD05E4A25B0CDE1005EED40 /* Main.storyboard */,
+				FFD05E4F25B0CDE4005EED40 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FFD05E8725B0D40C005EED40 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FFD05E8225B0D381005EED40 /* Landmark.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FFD05E8B25B0D411005EED40 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FFD05E8C25B0D41C005EED40 /* LandmarkController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		FFD05E9425B0E97A005EED40 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FFD05E9525B0E992005EED40 /* LandmarkCollectionViewController.swift */,
+				FFD05EA725B0F872005EED40 /* CountryChoiceViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FFD05E9A25B0EA3C005EED40 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FFD05E9B25B0EA41005EED40 /* Custom Cells */,
+				FFD05E7E25B0CE14005EED40 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FFD05E9B25B0EA41005EED40 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FFD05E9C25B0EA53005EED40 /* LandmarkCollectionViewCell.swift */,
+			);
+			path = "Custom Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +326,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFD05E4925B0CDE1005EED40 /* ViewController.swift in Sources */,
+				FFD05E9D25B0EA53005EED40 /* LandmarkCollectionViewCell.swift in Sources */,
 				FFD05E4525B0CDE1005EED40 /* AppDelegate.swift in Sources */,
+				FFD05E9625B0E992005EED40 /* LandmarkCollectionViewController.swift in Sources */,
+				FFD05E8D25B0D41C005EED40 /* LandmarkController.swift in Sources */,
 				FFD05E4725B0CDE1005EED40 /* SceneDelegate.swift in Sources */,
+				FFD05EA825B0F872005EED40 /* CountryChoiceViewController.swift in Sources */,
+				FFD05E8325B0D381005EED40 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +510,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 883MB467TW;
-				INFOPLIST_FILE = thursday/Info.plist;
+				INFOPLIST_FILE = thursday/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +529,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 883MB467TW;
-				INFOPLIST_FILE = thursday/Info.plist;
+				INFOPLIST_FILE = thursday/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
